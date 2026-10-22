@@ -51,7 +51,7 @@ footer{padding:30px 16px;text-align:center;color:#8b7e83;font:10px Arial,sans-se
 .event-number{display:inline-grid;place-items:center;width:36px;height:36px;border:1px solid var(--gold);border-radius:50%;letter-spacing:0;font-size:11px;color:#947243}
 .event h3{margin:15px 0 7px;font-size:30px}
 .event-note{margin:8px 0 0;color:var(--muted);font:11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
-.event-music{max-width:330px;margin:23px auto 0;padding-top:14px;border-top:1px solid #e4cfaa}.event-music span{display:block;font:9px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#a47789}.event-music p{margin:8px 0 0;color:#8b673f;font:17px/1.45 Georgia,serif}.event-music b{padding:0 4px;color:#bd9657;font-weight:400}
+.event-schedule{max-width:330px;margin:23px auto 0;padding:15px 8px 0;border-top:1px solid #e4cfaa;text-align:left}.schedule-title{margin:0 0 13px;text-align:center;color:#a47789;font:9px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}.event-schedule ol{display:grid;gap:10px;margin:0;padding:0;list-style:none}.event-schedule li{display:grid;grid-template-columns:82px 1fr;gap:12px;align-items:baseline;color:#563a48;font:14px/1.4 Georgia,serif}.event-schedule time{color:#8b673f;text-align:right;font:10px Arial,sans-serif;letter-spacing:.08em}
 .event .button{min-height:46px;display:inline-flex;align-items:center;justify-content:center}
 .button{min-height:44px}
 .button:focus-visible,.music:focus-visible,.scroll-cue:focus-visible{outline:3px solid #c4a06a;outline-offset:4px}
@@ -126,9 +126,9 @@ footer{padding:30px 16px;text-align:center;color:#8b7e83;font:10px Arial,sans-se
         <div class="sparkle-field" aria-hidden="true"><i style="--x:8%;--y:12%;--size:11px;--duration:3.2s;--delay:.6s;--drift:5px">✧</i><i style="--x:90%;--y:82%;--size:13px;--duration:2.8s;--delay:1.3s;--drift:-5px">✦</i></div>
         <span class="event-number">02</span>
         <h3>Celebración</h3>
-        <time>4:00 p. m.</time><p class="event-note">Recepción y alimentos</p>
+        <time>4:30 p. m.</time><p class="event-note">Recepción de alimentos</p>
         <p class="address">José María Pino Suárez núm. 274<br>San Mateo Otzacatipan<br>Estado de México</p>
-        <div class="event-music"><span>Una noche para celebrar</span><p>Mariachi <b aria-hidden="true">·</b> DJ <b aria-hidden="true">·</b> Música en vivo</p></div>
+        <div class="event-schedule"><p class="schedule-title">Momentos de la celebración</p><ol><li><time datetime="16:30">4:30 p. m.</time><span>Mariachi</span></li><li><time datetime="18:00">6:00 p. m.</time><span>DJ</span></li><li><time datetime="20:00">8:00 p. m.</time><span>Vals</span></li><li><time datetime="21:30">9:30 p. m.</time><span>Pastel</span></li><li><time datetime="22:00">10:00 p. m.</time><span>Música en vivo</span></li></ol></div>
         <a class="button outline" href="https://www.google.com/maps/search/?api=1&amp;query=Jos%C3%A9+Mar%C3%ADa+Pino+Su%C3%A1rez+274%2C+San+Mateo+Otzacatipan%2C+Estado+de+M%C3%A9xico" target="_blank" rel="noopener">Ver recepción en el mapa</a>
       </article>
     </div>
